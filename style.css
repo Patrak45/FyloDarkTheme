@@ -18,6 +18,7 @@ header{
     background-image: url('images/bg-curvy-desktop.svg');
     background-repeat: no-repeat;
     background-position: bottom;
+    background-size: 100%;
     min-height: 115vh;
 }
 header .header_navbar{
@@ -191,7 +192,7 @@ main .access .contact input{
 }
 main .access .contact button{
     padding: 15px 20px;
-    width: 30%;
+    width: 35%;
     border: none;
     border-radius: 30px;
     background: linear-gradient(135deg, #65E2D9, #339ECC);
@@ -237,11 +238,155 @@ footer .footer_content .footer_social-media .circle{
     justify-content: center;
 }
 .attribution{
-    position: fixed;
-    bottom: 0;
     width: 100%;
     text-align: center;
     padding: 10px;
 }
+
+@media (max-width: 1120px){
+    main .access{
+        width: 80%;
+    }
+}
+@media (max-width: 1000px){
+    main .productive{
+        flex-direction: column; 
+    }
+    main .productive .productive_text{
+        margin-top: 60px;
+    }
+    main .productive .productive_image{
+        margin-left: 0;
+    }
+}
+@media (max-width: 900px){
+    header{
+        min-height: 100%;
+    }
+    header .header_content img{
+        width: 70%;
+    }
+    header .header_content h1{
+        width: 70%;
+    }
+    header .header_content p{
+        width: 70%;
+    }
+    main .services{
+        margin-top: 100px;
+    }
+    main .services .services_box{
+        flex-direction: column;
+    }
+    main .services .services_box .services_card{
+        width: 80%;
+    }
+    main .services .services_box .services_card:last-child{
+        margin-top: 100px;
+    }
+    main .services .services_box .services_card h2{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    main .productive .productive_image img{
+        display: block;
+        margin: auto;
+        width: 90%;
+    }
+    main .temoignage{
+        flex-direction: column;
+        width: 90%;
+    }
+    main .temoignage .temoignage_card{
+        margin-bottom: 20px;
+    }
+    footer .footer_content{
+        flex-direction: column;
+    }
+    footer .footer_content .footer_contactinfos{
+        margin-bottom: 20px;
+    }
+    footer .footer_content .footer_contactinfos, footer .footer_content .footer_about, footer .footer_content .footer_contact{
+        line-height: 3;
+    }
+    footer .footer_content .footer_contact{
+        margin-bottom: 20px;
+    }
+    footer .footer_content .footer_social-media{
+        margin-top: 50px;
+        justify-content: center;
+    }
+}
+@media (max-width: 850px){
+    main .access{
+        width: 90%;
+    }
+    main .access .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    main .access .contact input{
+        width: 90%;
+        margin-right: 0;
+    }
+    main .access .contact button{
+        margin-top: 20px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 540px){
+    header .header_navbar{
+        padding: 20px 25px;
+    }
+    header .header_navbar .logo img{
+        width: 70%;
+    }
+    header .header_navbar .menu ul li{
+        padding: 0 5px;
+    }
+    header .header_navbar .menu ul li a{
+        font-size: 12px;
+    }
+    header .header_content h1{
+        width: 90%;
+        font-size: 26px;
+    }
+    header .header_content p{
+        width: 90%;
+    }
+    header .header_content button{
+        margin-top: 50px;
+        padding: 20px 60px;
+        width: 70%;
+    }
+    main .productive .productive_text h1{
+        font-size: 16px;
+        width: 90%;
+    }
+    main .productive .productive_text p{
+        width: 90%;
+    }
+    main .temoignage .temoignage_card{
+        font-size: 12px;
+    }
+    main .access{
+        padding: 40px 10px;
+    }
+    main .access h1{
+        font-size: 24px;
+    }
+    footer{
+        padding: 200px 0px 100px 0px;
+    }
+    footer img, .footer_infos,.footer_contactinfos, .footer_about, .footer_contact{
+        margin-left: 20px;
+    }
+
+}
+
 
 
