@@ -10,7 +10,7 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> 
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 
 </head>
@@ -128,8 +128,10 @@
     <section class="access">
       <h1>Get early access today</h1>
       <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
-      <input type="email" placeholder="email@example.com">
-      <button>Get Started For Free</button>
+      <div class="contact">
+        <input type="email" placeholder="email@example.com">
+        <button>Get Started For Free</button>
+      </div>
     </section>
   </main>
 
@@ -138,11 +140,12 @@
     <img src="images/logo.svg" alt="Fylo Logo">
     <div class="footer_content">
       <div class="footer_infos">
+        <p><i class="fas fa-map-marker-alt"></i></p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
       </div>
-      <div class="footer_contact">
-        <p>example@fylo.com</p>
-        <p>+1-543-123-4567</p>
+      <div class="footer_contactinfos">
+        <p><i class="fas fa-phone-volume"></i> +1-543-123-4567</p>
+        <p><i class="fas fa-envelope"></i> example@fylo.com</p>
       </div>
       <div class="footer_about">
         <ul>
@@ -161,23 +164,21 @@
       </div>
       <div class="footer_social-media">
         <div class="circle">
-          <p>Facebook</p>
+          <p><i class="fab fa-facebook-f"></i></p>
         </div>
         <div class="circle">
-          <p>Twitter</p>
+          <p><i class="fab fa-twitter"></i></p>
         </div>
         <div class="circle">
-          <p>Instagram</p>
+          <p><i class="fab fa-instagram"></i></p>
         </div>
       </div>
     </div>
   </footer>
+  <p class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.quentinpatras.fr">Quentin Patras</a>.
+  </p>
 
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
 </body>
 </html>

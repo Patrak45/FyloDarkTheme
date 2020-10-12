@@ -159,5 +159,89 @@ main .temoignage .temoignage_card .temoignage_people .people_infos{
 main .temoignage .temoignage_card .temoignage_people .people_infos .people_infos-name{
     font-weight: 700;
 }
+main .access{
+    margin: auto;
+    margin-top: 100px;
+    background-color: #1C2431;
+    width: 60%;
+    position: relative;
+    bottom: -120px;
+    border-radius: 10px;
+    padding: 40px 100px;
+    text-align: center;
+    -webkit-box-shadow: 10px 10px 7px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 7px -6px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 7px -6px rgba(0,0,0,0.75);
+}
+main .access h1{
+    font-size: 28px;
+}
+main .access p{
+    margin-top: 20px;
+}
+main .access .contact{
+    margin-top: 30px;
+}
+main .access .contact input{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 30px;
+    width: 60%;
+    margin-right: 20px;
+}
+main .access .contact button{
+    padding: 15px 20px;
+    width: 30%;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #65E2D9, #339ECC);
+    color: #FFF;
+}
+footer{
+    padding: 200px 100px 100px 100px;
+    background-color: #0B1523;
+}
+footer .footer_content{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer_content .footer_infos{
+    width: 30%;
+    display: flex;
+}
+footer .footer_content .footer_infos p{
+    margin-left: 10px;
+}
+footer .footer_content .footer_contactinfos i{
+    margin-right: 10px;
+}
+footer .footer_content .footer_contactinfos, footer .footer_content .footer_about, footer .footer_content .footer_contact{
+    line-height: 2;
+}
+footer .footer_content .footer_about ul, footer .footer_content .footer_contact ul{
+    list-style: none;
+}
+footer .footer_content .footer_social-media{
+    display: flex;
+}
+footer .footer_content .footer_social-media .circle{
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.attribution{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
 
 
