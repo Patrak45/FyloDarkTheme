@@ -382,6 +382,9 @@ footer .footer_content .footer_social-media .circle{
     footer{
         padding: 200px 0px 100px 0px;
     }
+    footer .footer_content .footer_infos{
+        width: 80%;
+    }
     footer img, .footer_infos,.footer_contactinfos, .footer_about, .footer_contact{
         margin-left: 20px;
     }
